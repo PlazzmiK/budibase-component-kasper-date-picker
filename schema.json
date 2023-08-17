@@ -37,7 +37,7 @@
         "type": "text",
         "label": "Earliest",
         "key": "min",
-        "defaultValue": "2001-01-01 00:00:00"
+        "defaultValue": "1900-01-01 00:00:00"
       },
       {
         "type": "text",
@@ -51,6 +51,7 @@
         "options": [
           "enUS",
           "enGB",
+          "nlBE",
           "bn",
           "da",
           "de",
