@@ -76,6 +76,11 @@
       dfLocale = enGB
       defaultFormat = "dd/MM/yyyy"
     }
+    else if (locale === "nlBE") {
+      kasperLocale = localeFromDateFnsLocale(nlBE)
+      dfLocale = nlBE
+      defaultFormat = "dd/MM/yyyy"
+    }
     else if (locale === "bn") {
       kasperLocale = localeFromDateFnsLocale(bn)
       dfLocale = bn
