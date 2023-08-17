@@ -3,7 +3,7 @@
   import DateInput from "./DateInput.svelte";
   import { localeFromDateFnsLocale } from './locale'
   import { parse, isValid } from 'date-fns';
-  import { enUS, enGB, zhCN, ru, fr, es, de, ptBR, it, ja, bn, da } from 'date-fns/locale';
+  import { enUS, enGB, nlBE, zhCN, ru, fr, es, de, ptBR, it, ja, bn, da } from 'date-fns/locale';
 
   export let field
   export let label
